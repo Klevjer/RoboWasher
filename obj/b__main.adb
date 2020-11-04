@@ -199,9 +199,9 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\Hansi\Desktop\oo\obj\main.o
-   --   -LC:\Users\Hansi\Desktop\oo\obj\
-   --   -LC:\Users\Hansi\Desktop\oo\obj\
+   --   C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\obj\main.o
+   --   -LC:\Users\Hansi\Desktop\RoboWasher\RoboWasher\obj\
+   --   -LC:\Users\Hansi\Desktop\RoboWasher\RoboWasher\obj\
    --   -LC:\Users\Hansi\Downloads\Ada_Drivers_Library-master_1\Ada_Drivers_Library-master\boards\NRF52_DK\obj\zfp_lib_Debug\
    --   -LC:\gnat\2019-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52840\adalib\
    --   -static
