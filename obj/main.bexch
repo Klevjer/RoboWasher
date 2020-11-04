@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Hansi\Desktop\oo\microbit_example.gpr
+20201104115350 4b50c316059ea1357d1cd4dec6598562
+C:\Users\Hansi\Downloads\Ada_Drivers_Library-master_1\Ada_Drivers_Library-master\boards\NRF52_DK\nrf52_dk_zfp.gpr
+20201022110508 6af3e1b9a891d929343a91197183bfab
+[BOUND OBJECT FILES]
+C:\Users\Hansi\Desktop\oo\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Hansi\Desktop\oo\obj\
+-LC:\Users\Hansi\Desktop\oo\obj\
+-LC:\Users\Hansi\Downloads\Ada_Drivers_Library-master_1\Ada_Drivers_Library-master\boards\NRF52_DK\obj\zfp_lib_Debug\
+-LC:\gnat\2019-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52840\adalib\
+-static
+-static-libgcc
+C:\gnat\2019-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52840\adalib\libgnarl.a
+C:\gnat\2019-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52840\adalib\libgnat.a
