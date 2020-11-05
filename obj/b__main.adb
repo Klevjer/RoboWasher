@@ -20,14 +20,23 @@ package body ada_main is
    E135 : Short_Integer; pragma Import (Ada, E135, "hal__gpio_E");
    E164 : Short_Integer; pragma Import (Ada, E164, "hal__i2c_E");
    E157 : Short_Integer; pragma Import (Ada, E157, "hal__spi_E");
+   E197 : Short_Integer; pragma Import (Ada, E197, "hal__time_E");
    E168 : Short_Integer; pragma Import (Ada, E168, "hal__uart_E");
+   E196 : Short_Integer; pragma Import (Ada, E196, "memory_barriers_E");
+   E194 : Short_Integer; pragma Import (Ada, E194, "cortex_m__nvic_E");
+   E189 : Short_Integer; pragma Import (Ada, E189, "nrf__events_E");
    E128 : Short_Integer; pragma Import (Ada, E128, "nrf__gpio_E");
+   E191 : Short_Integer; pragma Import (Ada, E191, "nrf__interrupts_E");
    E152 : Short_Integer; pragma Import (Ada, E152, "nrf__rtc_E");
    E155 : Short_Integer; pragma Import (Ada, E155, "nrf__spi_master_E");
+   E177 : Short_Integer; pragma Import (Ada, E177, "nrf__tasks_E");
+   E175 : Short_Integer; pragma Import (Ada, E175, "nrf__clock_E");
    E159 : Short_Integer; pragma Import (Ada, E159, "nrf__timers_E");
    E162 : Short_Integer; pragma Import (Ada, E162, "nrf__twi_E");
    E166 : Short_Integer; pragma Import (Ada, E166, "nrf__uart_E");
    E118 : Short_Integer; pragma Import (Ada, E118, "nrf__device_E");
+   E173 : Short_Integer; pragma Import (Ada, E173, "nrf52_dk__time_E");
+   E171 : Short_Integer; pragma Import (Ada, E171, "nrf52_dk__buttons_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -153,15 +162,25 @@ package body ada_main is
       E164 := E164 + 1;
       HAL.SPI'ELAB_SPEC;
       E157 := E157 + 1;
+      HAL.TIME'ELAB_SPEC;
+      E197 := E197 + 1;
       HAL.UART'ELAB_SPEC;
       E168 := E168 + 1;
+      E196 := E196 + 1;
+      Cortex_M.Nvic'Elab_Spec;
+      E194 := E194 + 1;
+      E189 := E189 + 1;
       Nrf.Gpio'Elab_Spec;
       Nrf.Gpio'Elab_Body;
       E128 := E128 + 1;
+      Nrf.Interrupts'Elab_Body;
+      E191 := E191 + 1;
       E152 := E152 + 1;
       Nrf.Spi_Master'Elab_Spec;
       Nrf.Spi_Master'Elab_Body;
       E155 := E155 + 1;
+      E177 := E177 + 1;
+      E175 := E175 + 1;
       Nrf.Timers'Elab_Spec;
       Nrf.Timers'Elab_Body;
       E159 := E159 + 1;
@@ -174,6 +193,11 @@ package body ada_main is
       Nrf.Device'Elab_Spec;
       Nrf.Device'Elab_Body;
       E118 := E118 + 1;
+      NRF52_DK.TIME'ELAB_SPEC;
+      NRF52_DK.TIME'ELAB_BODY;
+      E173 := E173 + 1;
+      NRF52_DK.BUTTONS'ELAB_BODY;
+      E171 := E171 + 1;
    end adainit;
 
    procedure Ada_Main_Program;

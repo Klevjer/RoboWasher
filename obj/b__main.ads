@@ -157,31 +157,55 @@ package ada_main is
    --  system.assertions%b
    --  system.pool_global%s
    --  system.pool_global%b
+   --  cortex_m%s
    --  cortex_m_svd%s
    --  hal%s
    --  cortex_m_svd.debug%s
    --  nrf_svd%s
+   --  nrf_svd.aar%s
+   --  nrf_svd.ccm%s
    --  nrf_svd.clock%s
+   --  nrf_svd.ecb%s
    --  nrf_svd.ficr%s
    --  nrf_svd.gpio%s
+   --  nrf_svd.gpiote%s
    --  nrf_svd.power%s
+   --  nrf_svd.ppi%s
+   --  nrf_svd.qdec%s
+   --  nrf_svd.radio%s
+   --  nrf_svd.rng%s
    --  nrf_svd.rtc%s
+   --  nrf_svd.saadc%s
    --  nrf_svd.spi%s
    --  nrf_svd.temp%s
    --  nrf_svd.timer%s
    --  nrf_svd.twi%s
    --  nrf_svd.uart%s
+   --  nrf_svd.wdt%s
    --  hal.gpio%s
    --  hal.i2c%s
    --  hal.spi%s
+   --  hal.time%s
    --  hal.uart%s
+   --  memory_barriers%s
+   --  memory_barriers%b
+   --  cortex_m.nvic%s
+   --  cortex_m.nvic%b
    --  nrf%s
+   --  nrf.events%s
+   --  nrf.events%b
    --  nrf.gpio%s
    --  nrf.gpio%b
+   --  nrf.interrupts%s
+   --  nrf.interrupts%b
    --  nrf.rtc%s
    --  nrf.rtc%b
    --  nrf.spi_master%s
    --  nrf.spi_master%b
+   --  nrf.tasks%s
+   --  nrf.tasks%b
+   --  nrf.clock%s
+   --  nrf.clock%b
    --  nrf.timers%s
    --  nrf.timers%b
    --  nrf.twi%s
@@ -190,6 +214,11 @@ package ada_main is
    --  nrf.uart%b
    --  nrf.device%s
    --  nrf.device%b
+   --  nrf52_dk%s
+   --  nrf52_dk.time%s
+   --  nrf52_dk.time%b
+   --  nrf52_dk.buttons%s
+   --  nrf52_dk.buttons%b
    --  main%b
    --  END ELABORATION ORDER
 

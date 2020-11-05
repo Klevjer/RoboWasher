@@ -1,14 +1,21 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file>C:\Users\Hansi\Desktop\oo\microbit_example.gpr</vfs_file>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\Hansi\Desktop\oo\microbit_example.gpr</vfs_file>
-    </file_marker>
+    <vfs_file>C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\microbit_example.gpr</vfs_file>
     <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Hansi\Desktop\oo\microbit_example.gpr</vfs_project>
-      <vfs_file>C:\Users\Hansi\Desktop\oo\src\main.adb</vfs_file>
+      <vfs_project>C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\microbit_example.gpr</vfs_project>
+      <vfs_file>C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\Hansi\Desktop\oo\microbit_example.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Hansi\Desktop\oo\microbit_example.gpr</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >C:\Users\Hansi\Desktop\oo\microbit_example.gpr</vfs_project>
+      <vfs_file >C:\Users\Hansi\Desktop\oo\src\main.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
