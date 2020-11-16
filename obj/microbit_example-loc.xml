@@ -1,21 +1,53 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file>C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\microbit_example.gpr</vfs_file>
-    <file_marker current="true" column=" 1" line=" 1" >
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\microbit_example.gpr</vfs_project>
       <vfs_file>C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\src\main.adb</vfs_file>
     </file_marker>
+    <file_marker column=" 15" line=" 45" >
+      <vfs_project>C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\microbit_example.gpr</vfs_project>
+      <vfs_file>C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\src\robot_IOs.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 130" >
+      <vfs_project>C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\microbit_example.gpr</vfs_project>
+      <vfs_file>C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\src\robot_IOs.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 11" >
+      <vfs_project>C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\microbit_example.gpr</vfs_project>
+      <vfs_file>C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\src\robot_func.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 85" >
+      <vfs_project>C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\microbit_example.gpr</vfs_project>
+      <vfs_file>C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\src\robot_func.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 15" line=" 3" >
+      <vfs_project />
+      <vfs_file>C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\src\robot_task.ads</vfs_file>
+    </file_marker>
   </Project>
   <Project >
-    <vfs_file >C:\Users\Hansi\Desktop\oo\microbit_example.gpr</vfs_file>
+    <vfs_file >C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\microbit_example.gpr</vfs_file>
     <file_marker column=" 1" line=" 1">
-      <vfs_project  />
-      <vfs_file >C:\Users\Hansi\Desktop\oo\microbit_example.gpr</vfs_file>
+      <vfs_project >C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\microbit_example.gpr</vfs_project>
+      <vfs_file >C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 1" line=" 1">
-      <vfs_project >C:\Users\Hansi\Desktop\oo\microbit_example.gpr</vfs_project>
-      <vfs_file >C:\Users\Hansi\Desktop\oo\src\main.adb</vfs_file>
+    <file_marker column=" 15" line=" 45">
+      <vfs_project >C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\microbit_example.gpr</vfs_project>
+      <vfs_file >C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\src\robot_IOs.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 130">
+      <vfs_project >C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\microbit_example.gpr</vfs_project>
+      <vfs_file >C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\src\robot_IOs.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 11">
+      <vfs_project >C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\microbit_example.gpr</vfs_project>
+      <vfs_file >C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\src\robot_func.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 15" line=" 85">
+      <vfs_project >C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\microbit_example.gpr</vfs_project>
+      <vfs_file >C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\src\robot_func.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

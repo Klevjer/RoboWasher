@@ -6,6 +6,8 @@ C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\microbit_example.gpr
 C:\Users\Hansi\Downloads\Ada_Drivers_Library-master_1\Ada_Drivers_Library-master\boards\NRF52_DK\nrf52_dk_zfp.gpr
 20201022110508 6af3e1b9a891d929343a91197183bfab
 [BOUND OBJECT FILES]
+C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\obj\robot_IOs.o
+C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\obj\robot_func.o
 C:\Users\Hansi\Desktop\RoboWasher\RoboWasher\obj\main.o
 [GENERATED SOURCE FILES]
 b__main.ads

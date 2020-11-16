@@ -217,8 +217,10 @@ package ada_main is
    --  nrf52_dk%s
    --  nrf52_dk.time%s
    --  nrf52_dk.time%b
-   --  nrf52_dk.buttons%s
-   --  nrf52_dk.buttons%b
+   --  robot_ios%s
+   --  robot_ios%b
+   --  robot_func%s
+   --  robot_func%b
    --  main%b
    --  END ELABORATION ORDER
 
